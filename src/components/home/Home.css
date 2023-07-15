@@ -1,0 +1,145 @@
+.home{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100vh;
+    
+    /* background: linear-gradient(
+        90deg,
+        rgb(2, 53, 53) 0%,
+        rgb(83, 2, 2) 94%
+    ); */
+}
+.home img{
+    
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+     height: 65vh;
+     width: 50vw;
+     
+     
+     
+    
+    transition: transform 0.3s ease;
+}
+.homeQuote{
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(12, 92, 92) , rgb(63, 8, 8));
+    height: 43vh;
+    width: 34vw;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+    font-size: x-large;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    padding-top: 20px;
+    letter-spacing:7px;
+    word-spacing: 3px;
+    line-height: 55px;
+    text-overflow: clip;
+    
+    
+    
+}
+.homeQuote:hover{
+    transform: scale(1.1);
+
+    
+}
+.home img:hover{
+    transform: scale(1.004);
+}
+.homeQuote span{
+    background-color: rgb(63, 62, 62);
+    padding: 1px 10px 3px 10px;
+    margin: 7px;
+    border-radius: 7px;
+}
+.homeQuote button{
+    
+    height: 5vh;
+    margin-top: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.homeQuote button:hover{
+    margin-top: 100px;
+    padding: 5px;
+    height: 50px;
+    padding: 5px;
+    
+    cursor: pointer;
+    color: aliceblue;
+    font-weight: bold;
+    
+    border-radius: 7px;
+    transform: all 0.2s easy-in-out;
+
+}
+@media screen  and (max-width: 700px){
+    .home{
+        height: 1400px;
+    }
+    .homeQuote{
+        margin-top: 110px;
+        height: 320px !important;
+        width: 80%;
+        padding: auto;
+        font-size: 1rem;
+        letter-spacing:3px;
+        word-spacing: 3px;
+        line-height: 40px;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    .home img{
+        margin: 10px;
+        height: 310px;
+        border-radius: 11px;
+        width: 80%;
+    }
+
+
+    
+}
+/* @media screen  and (max-width: 500px){
+    .homeQuote{
+        margin-top: 100px;
+        height: 30%;
+        width: 70%;
+        padding:5px,15px,0,5px ;
+        font-size: .7rem;
+        letter-spacing:3px;
+        word-spacing: 3px;
+        line-height: 33px;
+        
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    .home img{
+        margin: 10px;
+        height: 230px;
+        border-radius: 11px;
+        width: 250px;
+    }
+
+
+    
+} */

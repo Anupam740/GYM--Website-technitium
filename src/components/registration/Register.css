@@ -1,0 +1,80 @@
+.reg-container{
+    background: linear-gradient(to bottom, rgb(12, 92, 92) , rgb(129, 12, 12));
+    height: 70vh;
+    margin: auto ;
+    margin-top: 130px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    padding: 20px;
+    border-radius: 30px;
+    align-content: center;
+    color: rgb(189, 189, 189);
+    padding-top: 50px;
+}
+input :focus{
+    outline: none;
+}
+input :hover{
+    outline: none;
+}
+#submit-btn{
+    background-image: linear-gradient(to right, rgb(12, 92, 92) , rgba(222,66,66,1));
+
+    height: 5vh;
+    width: 8vw;
+    border-radius: 7px;
+    margin-top: 50px;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+
+}
+input{
+    
+    width: 25vw;
+    height: 7vh;
+    margin: 15px;
+    border-radius: 7px;
+    outline: none;
+    font-size: 20px;
+    padding-left: 9px;
+}
+h3{
+    margin-bottom: 30px;
+    font-size: larger;
+}
+body{
+    background: rgb(222,66,66);
+    background: linear-gradient(90deg,
+    rgba(222,66,66,1) 0%,
+    rgba(212,32,32,1) 94%)
+        
+}
+@media screen and (max-width:700px){
+    .reg-container{
+        background: linear-gradient(to bottom, rgb(12, 92, 92) , rgb(129, 12, 12));
+        height: 50vh;
+        margin: auto ;
+        margin-top: 130px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: larger;
+        padding: 20px;
+        border-radius: 30px;
+        align-content: center;
+        color: rgb(189, 189, 189);
+        padding-top: 50px;
+        margin-bottom: 170px;
+    }
+    .register-input-box{
+        width:80% ;
+    }
+    #submit-btn{
+        width: 40%;
+    }
+}

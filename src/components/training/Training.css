@@ -1,0 +1,129 @@
+.training-container{
+    
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding-bottom: 140px;
+}
+.training-team{
+    background: linear-gradient(
+          90deg,
+          rgb(0, 22, 22) 0%,
+          rgb(56, 1, 1) 94%
+      );
+    display: flex;
+  height: 38vh;
+  width: 70%;
+  margin-top: 50px;
+  flex-wrap: no-wrap;
+  overflow: auto;
+  border: 1px solid black;
+  box-shadow: 4px 4px 12px 2px rgb(20, 19, 19);
+  
+  align-self: center;
+  margin-left: 230px;
+  text-align: center;
+  border-radius: 13px;
+  color: aliceblue;
+  
+
+    
+    
+    
+    overflow-x: auto;
+    white-space: nowrap;
+
+}
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.teamMap{
+    flex-wrap: wrap;
+
+    background: linear-gradient(
+        45deg,
+        rgb(2, 53, 53) 0%,
+        rgb(31, 1, 1) 94%
+    );
+  height:70% ;
+  min-width: 300px;
+  text-align: center;
+  gap: 8px;
+  padding: 20px;
+  
+  text-overflow: clip;
+  
+  justify-content: center;
+  margin: auto 8px;
+  padding-left: 20px;
+  padding-left: 20px;
+  padding: 10px;
+  
+  
+  
+  
+  
+  border-radius: 14px;
+  box-shadow: 9px 7px 16px 3px rgb(7, 5, 5);
+  
+  text-decoration: dotted;
+  
+  
+
+  
+
+}
+.teamMap p{
+    margin: 5px;
+    margin-top: 47px;
+    padding-right: 10px;
+    
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    flex: 0 0 100%; 
+    font-size: small;
+    font-weight: bold;
+} 
+.text {
+    /* Additional styling for the text elements */
+    flex: 0 0 100%; /* Forces each text element to occupy the full width of the container */
+    
+    height: fit-content;
+    
+  }
+  .training-content{
+    width: 80%;
+    align-self: center;
+    margin: auto;
+  }
+  
+  
+.teamMap h3{
+    margin-top: 25px;
+}
+@media screen and (max-width:700px){
+    .training-container{
+        width: 100%;
+        margin: 0;
+        padding-left: 0;
+        padding-bottom: 10px;
+        font-size: small;
+    }
+    .training-team{
+        margin-left: 30px;
+        margin-right: 0px;
+        width: 80%;
+        
+    }
+ .teamMap{
+    align-self: center;
+    width: 60% !important ;
+    
+ }
+}
+  

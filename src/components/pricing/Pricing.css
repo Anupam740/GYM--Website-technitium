@@ -1,0 +1,179 @@
+.pricing{
+    padding-top: 140px;
+    color: aliceblue;
+    height: 80.8vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+span{
+    text-display: inline-block;
+}
+.membership-card{
+    display: flex;
+    width: 600px;
+    
+}
+.membercard1,.memberCard2{
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    margin-left: 40px;
+    padding-top: 15px;
+    height: 400px;
+    width: 240px;
+    background: linear-gradient(
+        45deg,
+        rgb(2, 53, 53) 0%,
+        rgb(83, 2, 2) 94%
+    );
+
+    
+}
+.membercard1 span{
+    font-size: xx-large;
+}
+.membercard1-content{
+    height: 40px;
+    margin-top: 130px;
+    align-items: flex-start;
+}
+.membercard1 button{
+    margin-top: 38px;
+}
+.membercard1:hover{
+    background: rgb(24, 23, 23);
+    color: aliceblue;
+    transform: scale(1.1);
+
+}
+.memberCard2{
+    border-radius: 12px;
+    
+    transition: transform 0.3s ease;
+    margin-left: 40px;
+    padding-top: 15px;
+    height: 400px;
+    width: 240px;
+    background: linear-gradient(
+        45deg,
+        rgb(2, 53, 53) 0%,
+        rgb(83, 2, 2) 94%
+    );
+    
+
+}
+.memberCard2:hover{
+    background: rgb(24, 23, 23);
+    color: aliceblue;
+    transform: scale(1.1);
+
+}
+.memberCard2 span{
+    font-size: xx-large;
+}
+.memberCard2 button{
+    margin-top: 80px;
+}
+.memberCard2-content{
+    height: 40px;
+    margin-top: 100px;
+    align-items: flex-start;}
+ .membership-cardright-part{
+    
+    width: 600px;
+    text-align: left;
+    padding: 15px;
+ }
+ @media screen and (max-width:700px){
+    .membercard1,.memberCard2{
+        border-radius: 12px;
+        transition: transform 0.3s ease;
+        margin-left: -6px;
+        padding-top: 15px;
+        height: 400px;
+        width: 240px;
+        background: linear-gradient(
+            45deg,
+            rgb(2, 53, 53) 0%,
+            rgb(83, 2, 2) 94%
+        );
+    
+        
+    }
+    *{
+        margin: 0;padding: 0;
+    }
+    .membership-card{
+        display: flex;
+        padding-left: 3px;
+        gap: 1%;
+        justify-content: space-around;
+        width: 100%;
+        
+        
+    }
+    .membercard1{
+        width: 720px;
+        height: 360px;
+        margin-right: 5px;
+    }
+    .memberCard2{
+        margin-left: 2px;
+        width: 720px;
+        height: 350px;
+        padding-bottom: 10px;
+        
+        
+    }
+    .membercard1-content h4 {
+        font-size: 10px !important;
+        
+    }
+    .membercard1-content{
+        margin-top: 25px;
+        margin-top: 70px;
+    }
+    .memberCard2-content h4 {
+        font-size: 10px !important;
+        
+    }
+    .memberCard2-content{
+        margin-top: 15px;}
+        
+    
+    .pricing{
+        padding-top: 20px;
+        color: aliceblue;
+        height: 2000px;
+        padding-top: 100px;
+        font-size: large;
+        
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        
+        
+    }
+    .masterCard1-button{
+        margin-bottom: -10px;
+    }
+    .membership-cardright-part{
+        width: 70%;
+        padding-top: 460px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+ }
+    
+    
+
+
+    
